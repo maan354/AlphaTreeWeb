@@ -2,12 +2,7 @@
     "use strict";
     window.McliB = window.McliB || {};    //MDS Support: Type.registerNamespace("ag2rlm");
     McliB.Constants = McliB.Constants || {};
-    var orderFucusFields = {
-        Title: "Title",
-        Urlpageactu: "Urlpageactu",
-        Ordrefocus: "Ordrefocus",
-        Audience: "Audience"
-    }
+
     var AssetsPath = "/_catalogs/masterpage/Ag2rlamondiale/Assets/";
     var RelatifPathAsset = ".." + AssetsPath;
     var jsCompentnBase = "js/components/";
@@ -15,16 +10,7 @@
     var jsComponents = RelatifPathAsset + jsCompentnBase;
     var toasterConfigtimeOut = 4000;
     var plugins = ['checkbox', 'types', 'sort'];
-    var coreTree = {
-        multiple: true,
-        animation: true,
-        error: function (error) {
-            // $log.error('treeCtrl: error from js tree - ' + angular.toJson(error));
-        },
-        themes: { 'dots': false },
-        check_callback: true,
-        worker: true,
-    }
+
     var listeActuUrl = "./liste-actu.aspx";
     var listeActuProxiUrl = "./liste-actu-proxi.aspx"
     var AllRegions = "Toutes les régions";
